@@ -12,7 +12,7 @@ import httpStatus from "http-status";
 const app = express();
 app.use(express.json());
 
-if (NODE_ENV === "development") {
+if (NODE_ENV === "development" || NODE_ENV === "test") {
     app.use(morgan("dev"));
 }
 

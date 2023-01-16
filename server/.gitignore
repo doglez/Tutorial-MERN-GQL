@@ -6,7 +6,7 @@
 .pnp.js
 
 # testing
-/n bcoverage
+/coverage
 
 # production
 /build
