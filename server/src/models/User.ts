@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import bcryptjs from "bcryptjs";
 
 export interface IUser {
     id: number;
@@ -6,6 +7,7 @@ export interface IUser {
     password: string;
     email: string;
     displayName: string;
+    matchPassword(enteredPass: string): Function;
 }
 
 const UserSchema = new mongoose.Schema<IUser>(
@@ -39,5 +41,20 @@ const UserSchema = new mongoose.Schema<IUser>(
         versionKey: false,
     }
 );
+
+// Ecrypt password
+UserSchema.pre("save", async function (next) {
+    if (!this.isModified("password")) {
+        next();
+    }
+
+    const salt = await bcryptjs.genSalt(10);
+    this.password = await bcryptjs.hash(this.password, salt);
+});
+
+// Match user entered password to hashed password in database
+UserSchema.methods.matchPassword = function (enteredPass: string) {
+    return bcryptjs.compare(enteredPass, this.password);
+};
 
 export default mongoose.model("User", UserSchema);
