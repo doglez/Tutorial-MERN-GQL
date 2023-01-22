@@ -4,8 +4,20 @@ import https from "https";
 import { HOST_NAME, NODE_ENV, PORT } from "./config/Config";
 import CertificateOptions from "./certificate/CertificateOptions";
 import app from "./app";
+import { graphqlHTTP } from "express-graphql";
+import schema from "./graphql/schema";
+import dbConnect from "./db/dbConnect";
 
 colors.enable();
+dbConnect();
+
+app.use(
+    "/graphql",
+    graphqlHTTP({
+        schema,
+        graphiql: true,
+    })
+);
 
 let server: https.Server | http.Server;
 
