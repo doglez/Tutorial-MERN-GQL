@@ -4,7 +4,6 @@ import {
     ApolloServerPluginLandingPageLocalDefault,
     ApolloServerPluginLandingPageProductionDefault,
 } from "@apollo/server/plugin/landingPage/default";
-
 import typeDefs from "./graphql/schema";
 import resolvers from "./graphql/resolvers";
 import cors from "cors";
@@ -15,9 +14,11 @@ import { HOST_NAME, NODE_ENV, PORT } from "./config/Config";
 import CertificateOptions from "./certificate/CertificateOptions";
 import app from "./app";
 import colors from "colors";
+import dbConnect from "./db/dbConnect";
 
 (async function () {
     colors.enable();
+    dbConnect();
 
     let httpServer: http.Server | https.Server;
     if (NODE_ENV === "production") {
