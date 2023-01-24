@@ -1,41 +1,62 @@
 import { ApolloServer } from "@apollo/server";
-import { startStandaloneServer } from "@apollo/server/standalone";
+import { expressMiddleware } from "@apollo/server/express4";
+import {
+    ApolloServerPluginLandingPageLocalDefault,
+    ApolloServerPluginLandingPageProductionDefault,
+} from "@apollo/server/plugin/landingPage/default";
+
 import typeDefs from "./graphql/schema";
+import resolvers from "./graphql/resolvers";
+import cors from "cors";
+import bodyParser from "body-parser";
+import http from "http";
+import https from "https";
+import { HOST_NAME, NODE_ENV, PORT } from "./config/Config";
+import CertificateOptions from "./certificate/CertificateOptions";
+import app from "./app";
+import colors from "colors";
 
 (async function () {
-    const books = [
-        {
-            title: "The Awakening",
-            author: "Kate Chopin",
-        },
-        {
-            title: "City of Glass",
-            author: "Paul Auster",
-        },
-    ];
+    colors.enable();
 
-    // Resolvers define how to fetch the types defined in your schema.
-    // This resolver retrieves books from the "books" array above.
-    const resolvers = {
-        Query: {
-            books: () => books,
-        },
-    };
+    let httpServer: http.Server | https.Server;
+    if (NODE_ENV === "production") {
+        httpServer = https.createServer(CertificateOptions, app);
+    } else {
+        httpServer = http.createServer(app);
+    }
 
-    // The ApolloServer constructor requires two parameters: your schema
-    // definition and your set of resolvers.
     const server = new ApolloServer({
         typeDefs,
         resolvers,
+        plugins: [
+            NODE_ENV === "production"
+                ? ApolloServerPluginLandingPageProductionDefault({
+                      graphRef: "my-graph-id@my-graph-variant",
+                      footer: false,
+                  })
+                : ApolloServerPluginLandingPageLocalDefault({ footer: false }),
+        ],
     });
+    await server.start();
 
-    // Passing an ApolloServer instance to the `startStandaloneServer` function:
-    //  1. creates an Express app
-    //  2. installs your ApolloServer instance as middleware
-    //  3. prepares your app to handle incoming requests
-    const { url } = await startStandaloneServer(server, {
-        listen: { port: 4000 },
-    });
+    app.use(
+        "/graphql",
+        cors<cors.CorsRequest>(),
+        bodyParser.json(),
+        expressMiddleware(server)
+    );
 
-    console.log(`🚀  Server ready at: ${url}`);
+    await new Promise<void>((resolve) =>
+        httpServer.listen({ port: PORT }, resolve)
+    );
+
+    if (NODE_ENV === "production") {
+        console.log("🚀 Server ready at", `${HOST_NAME}/graphql`.yellow);
+    } else {
+        console.log(
+            "🚀 Server ready at",
+            `${HOST_NAME}:${PORT}/graphql`.yellow
+        );
+    }
 })();
