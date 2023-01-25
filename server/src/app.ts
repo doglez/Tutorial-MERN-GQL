@@ -1,6 +1,6 @@
 import express from "express";
-// import { NODE_ENV } from "./config/Config";
-// import morgan from "morgan";
+import { NODE_ENV } from "./config/Config";
+import morgan from "morgan";
 import ExpressMongoSanitize from "express-mongo-sanitize";
 import helmet from "helmet";
 import { rateLimit } from "express-rate-limit";
@@ -9,9 +9,9 @@ import ErrorHandler from "./middleware/ErrorHandler";
 
 const app = express();
 
-// if (NODE_ENV !== "production") {
-//     app.use(morgan("dev"));
-// }
+if (NODE_ENV !== "production") {
+    app.use(morgan("dev"));
+}
 
 app.use(
     ExpressMongoSanitize({

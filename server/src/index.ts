@@ -1,5 +1,6 @@
 import { ApolloServer } from "@apollo/server";
 import { expressMiddleware } from "@apollo/server/express4";
+import { ApolloServerPluginDrainHttpServer } from "@apollo/server/plugin/drainHttpServer";
 import {
     ApolloServerPluginLandingPageLocalDefault,
     ApolloServerPluginLandingPageProductionDefault,
@@ -31,9 +32,9 @@ import dbConnect from "./db/dbConnect";
         typeDefs,
         resolvers,
         plugins: [
+            ApolloServerPluginDrainHttpServer({ httpServer }),
             NODE_ENV === "production"
                 ? ApolloServerPluginLandingPageProductionDefault({
-                      graphRef: "my-graph-id@my-graph-variant",
                       footer: false,
                   })
                 : ApolloServerPluginLandingPageLocalDefault({ footer: false }),
