@@ -1,0 +1,93 @@
+[
+    {
+        "name": "Admin Account",
+        "email": "admin@example.com",
+        "role": "user",
+        "phone": "555-555-5552",
+        "password": "123456"
+    },
+    {
+        "name": "Publisher Account",
+        "email": "publisher@example.com",
+        "role": "publisher",
+        "phone": "555-555-5553",
+        "password": "123456"
+    },
+    {
+        "name": "User Account",
+        "email": "user@example.com",
+        "role": "user",
+        "phone": "555-555-5554",
+        "password": "123456"
+    },
+    {
+        "name": "John Smith",
+        "email": "johnsmith@example.com",
+        "role": "user",
+        "phone": "555-555-5555",
+        "password": "123456"
+    },
+    {
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "role": "publisher",
+        "phone": "555-555-5556",
+        "password": "123456"
+    },
+    {
+        "name": "Michael Johnson",
+        "email": "michaeljohnson@example.com",
+        "role": "user",
+        "phone": "555-555-5557",
+        "password": "123456"
+    },
+    {
+        "name": "Emily Davis",
+        "email": "emilydavis@example.com",
+        "role": "publisher",
+        "phone": "555-555-5558",
+        "password": "123456"
+    },
+    {
+        "name": "Matthew Martinez",
+        "email": "matthewmartinez@example.com",
+        "role": "user",
+        "phone": "555-555-5559",
+        "password": "123456"
+    },
+    {
+        "name": "Nicholas Rodriguez",
+        "email": "nicholasrodriguez@example.com",
+        "role": "publisher",
+        "phone": "555-555-5560",
+        "password": "123456"
+    },
+    {
+        "name": "Ashley Garcia",
+        "email": "ashleygarcia@example.com",
+        "role": "user",
+        "phone": "555-555-5561",
+        "password": "123456"
+    },
+    {
+        "name": "David Martinez",
+        "email": "davidmartinez@example.com",
+        "role": "publisher",
+        "phone": "555-555-5562",
+        "password": "123456"
+    },
+    {
+        "name": "Jessica Hernandez",
+        "email": "jessicahernandez@example.com",
+        "role": "user",
+        "phone": "555-555-5563",
+        "password": "123456"
+    },
+    {
+        "name": "Richard Lopez",
+        "email": "richardlopez@example.com",
+        "role": "publisher",
+        "phone": "555-555-5564",
+        "password": "123456"
+    }
+]

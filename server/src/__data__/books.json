@@ -1,0 +1,122 @@
+[
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "prefacio": "The Great Gatsby is a novel by F. Scott Fitzgerald. It was first published in 1925. The story takes place in the summer of 1922 in the fictional town of West Egg on Long Island. The novel is a commentary on the excesses of the Roaring Twenties, and a satire of the nouveau riche during the Jazz Age.",
+        "publisher": "Charles Scribner's Sons",
+        "publication_date": "April 10, 1925",
+        "pages": 180,
+        "price": 10.99,
+        "isbn": "9780743273565",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51EG732BV3L._SX321_BO1,204,203,200_.jpg",
+        "resume": "The novel follows the life and times of Jay Gatsby, a mysterious millionaire who throws extravagant parties in hopes of winning back his former love, Daisy Buchanan. As the summer progresses, Gatsby's past and true identity are revealed, leading to a tragic ending."
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "prefacio": "The Catcher in the Rye is a novel by J.D. Salinger, first published in 1951. The story is told in a first-person narrative by Holden Caulfield, a teenage boy who has been expelled from his prep school. The novel deals with themes of alienation, loss of innocence, and the struggles of adolescence.",
+        "publisher": "Little, Brown and Company",
+        "publication_date": "July 16, 1951",
+        "pages": 277,
+        "price": 12.99,
+        "isbn": "0316769177",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51E6R1X9KLL._SX325_BO1,204,203,200_.jpg",
+        "resume": "The novel follows Holden as he wanders around New York City, struggling with the death of his younger brother and his own feelings of alienation. Along the way, he encounters a variety of characters, both real and imagined, and grapples with the idea of growing up and losing his innocence."
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "prefacio": "To Kill a Mockingbird is a novel by Harper Lee, published in 1960. The book is set in the fictional town of Maycomb, Alabama during the Great Depression, and tells the story of Scout Finch and her brother Jem, who learn about racism and injustice in their community through their father, Atticus Finch, a lawyer who defends a black man falsely accused of raping a white woman.",
+        "publisher": "J. B. Lippincott & Co.",
+        "publication_date": "July 11, 1960",
+        "pages": 281,
+        "price": 14.99,
+        "isbn": "9780061120084",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51EXZszFZnL._SX331_BO1,204,203,200_.jpg",
+        "resume": "The novel is told through the eyes of Scout Finch, a young girl growing up in the small town of Maycomb, Alabama during the 1930s. Through her eyes, the reader is exposed to the racial prejudice and injustice that existed in the South during this time period. The novel also explores themes of innocence, growing up and the loss of childhood, and the coexistence of good and evil in human nature."
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "prefacio": "The Lord of the Rings is an epic high fantasy novel written by J.R.R. Tolkien, originally published in three volumes between 1954 and 1955. The story is set in the fictional world of Middle-earth and follows hobbit Frodo Baggins as he and a fellowship of other creatures embark on a quest to destroy the One Ring, a powerful and evil object created by the Dark Lord Sauron, in order to prevent him from enslaving the world.",
+        "publisher": "George Allen & Unwin",
+        "publication_date": "July 29, 1954",
+        "pages": 1216,
+        "price": 16.99,
+        "isbn": "9780544003415",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51hsfQ9hqrL._SX329_BO1,204,203,200_.jpg",
+        "resume": "The Lord of the Rings is a story of good versus evil, the power of friendship and sacrifice, and the triumph of courage and hope in the face of overwhelming odds. The novel is set in the fictional world of Middle-earth, a land of elves, dwarves, and talking animals, where a powerful and evil force threatens to enslave all living things. The story follows hobbit Frodo Baggins as he and a fellowship of other creatures embark on a quest to destroy the One Ring, the source of this evil, and save Middle-earth."
+    },
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "prefacio": "The Hobbit is a fantasy novel written by J.R.R. Tolkien, first published on September 21, 1937. The story is set in the fictional world of Middle-earth and follows hobbit Bilbo Baggins as he is recruited by the wizard Gandalf to join a group of dwarves on a quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, they encounter many challenges and adventures, including giant spiders, shape-shifting wolves, and enchanted forests.",
+        "publisher": "George Allen & Unwin",
+        "publication_date": "September 21, 1937",
+        "pages": 310,
+        "price": 14.99,
+        "isbn": "9780547928227",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51-sxuYKHCL._SX324_BO1,204,203,200_.jpg",
+        "resume": "The Hobbit is a story of adventure and friendship, set in the magical world of Middle-earth. The novel follows hobbit Bilbo Baggins as he is recruited by the wizard Gandalf to join a group of dwarves on a quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, they encounter many challenges and adventures, including giant spiders, shape-shifting wolves, and enchanted forests. The book is also a prequel to The Lord of the Rings"
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "prefacio": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series, written by J.K. Rowling. The story is set in the magical world of wizards and witches and follows an orphaned boy named Harry Potter as he discovers that he is a wizard and begins his first year at Hogwarts School of Witchcraft and Wizardry. Along the way, he makes new friends and enemies, and uncovers a mysterious plot involving a powerful and dangerous object known as the Sorcerer's Stone.",
+        "publisher": "Bloomsbury",
+        "publication_date": "June 26, 1997",
+        "pages": 322,
+        "price": 9.99,
+        "isbn": "9780747532699",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg",
+        "resume": "Harry Potter and the Sorcerer's Stone is the first book in the Harry Potter series written by J.K. Rowling. The story follows an orphaned boy named Harry Potter as he discovers that he is a wizard and begins his first year at Hogwarts School of Witchcraft and Wizardry. Along the way, he makes new friends and enemies, and uncovers a mysterious plot involving a powerful and dangerous object known as the Sorcerer's Stone. The book is a fantasy and adventure story that is beloved by children and adults alike."
+    },
+    {
+        "title": "The Diary of a Young Girl",
+        "author": "Anne Frank",
+        "prefacio": "The Diary of a Young Girl, also known as The Diary of Anne Frank, is a book of the writings from the Dutch language diary kept by Anne Frank while she was in hiding for two years with her family during the Nazi occupation of the Netherlands. The diary was given to Anne on her 13th birthday and she wrote in it almost every day until her family was discovered by the Nazis in 1944. The diary covers the period from June 12, 1942, to August 1, 1944, and provides a unique insight into the life of a Jewish girl during the Holocaust.",
+        "publisher": "Doubleday",
+        "publication_date": "June 25, 1947",
+        "pages": 245,
+        "price": 8.99,
+        "isbn": "9780385473788",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51-S7V1B9SL._SX318_BO1,204,203,200_.jpg",
+        "resume": "The Diary of a Young Girl is a historical book written by Anne Frank. It is a collection of diary entries written by Anne during her time in hiding from the Nazis during the Holocaust. The book provides a unique insight into the life of a Jewish girl during this period and is a powerful testimony to the human spirit. It is a must-read for anyone interested in history and the Holocaust."
+    },
+    {
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "prefacio": "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988. The story follows a young shepherd named Santiago as he embarks on a journey to fulfill his personal legend and realize his dreams. Along the way, he meets a series of characters who teach him about the secrets of the universe, the importance of listening to his heart, and the power of love. The book has become a classic of modern literature and has been translated into over 80 languages.",
+        "publisher": "HarperOne",
+        "publication_date": "1988",
+        "pages": 197,
+        "price": 12.99,
+        "isbn": "9780062315007",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51ySJjHxDfL._SX324_BO1,204,203,200_.jpg",
+        "resume": "The Alchemist is a novel written by Paulo Coelho that tells the story of a young shepherd named Santiago who embarks on a journey to fulfill his personal legend and realize his dreams. Along the way, he meets a series of characters who teach him about the secrets of the universe, the importance of listening to his heart, and the power of love. The book is a beautiful and inspiring story that has become a classic of modern literature and has been translated into over 80 languages."
+    },
+    {
+        "title": "The Old Man and the Sea",
+        "author": "Ernest Hemingway",
+        "prefacio": "The Old Man and the Sea is a novella written by Ernest Hemingway and published in 1952. The story follows an aging Cuban fisherman, Santiago, as he struggles to catch a giant marlin. Santiago's physical and emotional battle with the marlin is a symbol of the human struggle against nature and the passage of time. The book is considered one of Hemingway's greatest works and won the Pulitzer Prize in 1953.",
+        "publisher": "Scribner",
+        "publication_date": "1952",
+        "pages": 128,
+        "price": 7.99,
+        "isbn": "9780684830490",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/41W%2B7sMhKsL._SX316_BO1,204,203,200_.jpg",
+        "resume": "The Old Man and the Sea is a novella written by Ernest Hemingway. The story follows an aging Cuban fisherman, Santiago, as he struggles to catch a giant marlin. Santiago's physical and emotional battle with the marlin is a symbol of the human struggle against nature and the passage of time. The book is considered one of Hemingway's greatest works and won the Pulitzer Prize in 1953."
+    },
+    {
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "prefacio": "The Picture of Dorian Gray is a novel written by Oscar Wilde and first published in 1890. The story follows a handsome young man named Dorian Gray who is given a portrait of himself. As Dorian indulges in a life of hedonism and immorality, his portrait reflects the ugliness and corruption of his soul. The book is a classic of literature and is considered one of Wilde's greatest works, It deals with themes of morality, beauty, and the consequences of leading a life of excess.",
+        "publisher": "Dover Publications",
+        "publication_date": "1890",
+        "pages": 260,
+        "price": 6.99,
+        "isbn": "9780486469472",
+        "image_url": "https://images-na.ssl-images-amazon.com/images/I/51O4E7ywY5L._SX329_BO1,204,203,200_.jpg",
+        "resume": "The Picture of Dorian Gray is a novel written by Oscar Wilde. The story follows a handsome young man named Dorian Gray who is given a portrait of himself. As Dorian indulges in a life of hedonism and immorality, his portrait reflects the ugliness and corruption of his soul. The book is a classic of literature and is considered one of Wilde's greatest works. It deals with themes of morality, beauty, and the consequences of leading a life of excess."
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Great read!",
+        "text": "I really enjoyed reading this book. The characters were well-developed and the plot was engaging. I couldn't put it down!",
+        "rating": 5
+    },
+    {
+        "title": "Not for me",
+        "text": "I didn't connect with the story or the characters. I found it hard to get through and didn't finish it.",
+        "rating": 2
+    },
+    {
+        "title": "A classic",
+        "text": "This book is a must-read. It's a timeless classic that everyone should experience at least once in their lifetime.",
+        "rating": 5
+    },
+    {
+        "title": "Disappointing",
+        "text": "I had high expectations for this book, but it fell short. The pacing was slow and I found it hard to stay interested.",
+        "rating": 2
+    },
+    {
+        "title": "Surprising twist",
+        "text": "I didn't expect the plot twist at the end, it was a pleasant surprise. I enjoyed the book overall.",
+        "rating": 4
+    },
+    {
+        "title": "A page-turner",
+        "text": "I couldn't put this book down! The story was so gripping and I had to know what happened next.",
+        "rating": 5
+    },
+    {
+        "title": "Emotional journey",
+        "text": "This book took me on an emotional rollercoaster. I laughed, I cried, I felt every emotion in between.",
+        "rating": 4
+    },
+    {
+        "title": "Just okay",
+        "text": "This book was just okay. It was an easy read, but nothing stood out as particularly memorable.",
+        "rating": 3
+    },
+    {
+        "title": "Not what I expected",
+        "text": "I had a different idea of what this book would be like based on the description, but it ended up being quite different. It was still an interesting read.",
+        "rating": 3
+    },
+    {
+        "title": "A new favorite",
+        "text": "This book has quickly become one of my new favorites. I loved the characters and the plot was so well done.",
+        "rating": 5
+    }
+]
