@@ -5,8 +5,6 @@ import {
     ApolloServerPluginLandingPageLocalDefault,
     ApolloServerPluginLandingPageProductionDefault,
 } from "@apollo/server/plugin/landingPage/default";
-import typeDefs from "./graphql/schema";
-import resolvers from "./graphql/resolvers";
 import cors from "cors";
 import bodyParser from "body-parser";
 import http from "http";
@@ -16,6 +14,7 @@ import CertificateOptions from "./certificate/CertificateOptions";
 import app from "./app";
 import colors from "colors";
 import dbConnect from "./db/dbConnect";
+import { resolvers, typeDefs } from "./graphql";
 
 (async function () {
     colors.enable();
