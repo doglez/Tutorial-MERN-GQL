@@ -1,4 +1,6 @@
 import User from "../../models/User";
+import httpStatus from "http-status";
+import ErrorResponse from "../../util/ErrorResponse";
 
 interface IArgs {
     id: string;
@@ -24,13 +26,39 @@ const queries = {
 
 const mutations = {
     createUser: async (_parent: any, args: IArgs) => {
-        const { email, password } = args;
+        const { name, email, password } = args;
 
         const user = await User.create({
-            name: email,
+            name,
             email,
             password,
         });
+
+        return user;
+    },
+    updateUser: async (_parent: any, args: IArgs) => {
+        const { id, name, role, phone } = args;
+
+        let user = await User.findById(id);
+
+        if (!user) {
+            throw new ErrorResponse(
+                `User not found with id ${id}`,
+                httpStatus["404_NAME"],
+                "id",
+                httpStatus.NOT_FOUND
+            );
+        }
+
+        user = await User.findByIdAndUpdate(
+            id,
+            {
+                name,
+                role,
+                phone,
+            },
+            { new: true, runValidators: true }
+        );
 
         return user;
     },

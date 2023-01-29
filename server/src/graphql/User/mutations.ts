@@ -2,8 +2,8 @@ const mutations = `#graphql
     createUser(
         name: String!,
         email: String!,
-        role: String!,
-        phone: String!,
+        role: String,
+        phone: String,
         password: String!,
     ): User
     updateUser(
