@@ -8,7 +8,9 @@
         "build": "tsc & npm run copy-files",
         "start": "SET NODE_ENV=production& node build/index.js",
         "test": "jest --coverage --watchAll",
-        "copy-files": "cp -r ./src/certificate/certificate.* ./build/certificate"
+        "copy-files": "cp -r ./src/certificate/certificate.* ./build/certificate",
+        "imp": "SET NODE_ENV=development& ts-node src/db/Seeder -i",
+        "del": "SET NODE_ENV=development& ts-node src/db/Seeder -d"
     },
     "keywords": [],
     "author": "",
@@ -45,6 +47,7 @@
         "jest": "^29.4.0",
         "supertest": "^6.3.3",
         "ts-jest": "^29.0.5",
+        "ts-node": "^10.9.1",
         "ts-node-dev": "^2.0.0",
         "typescript": "^4.9.4"
     }

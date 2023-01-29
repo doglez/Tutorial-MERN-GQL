@@ -1,93 +1,132 @@
 [
     {
+        "_id": "63d5bf6018c66aed452b1ba3",
         "name": "Admin Account",
         "email": "admin@example.com",
         "role": "user",
         "phone": "555-555-5552",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544035",
+        "updatedAt": "1674952544035"
     },
     {
+        "_id": "63d5bf6018c66aed452b1ba4",
         "name": "Publisher Account",
         "email": "publisher@example.com",
         "role": "publisher",
         "phone": "555-555-5553",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544036",
+        "updatedAt": "1674952544036"
     },
     {
+        "_id": "63d5bf6018c66aed452b1ba5",
         "name": "User Account",
         "email": "user@example.com",
         "role": "user",
         "phone": "555-555-5554",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544036",
+        "updatedAt": "1674952544036"
     },
     {
+        "_id": "63d5bf6018c66aed452b1ba6",
         "name": "John Smith",
         "email": "johnsmith@example.com",
         "role": "user",
         "phone": "555-555-5555",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544036",
+        "updatedAt": "1674952544036"
     },
     {
+        "_id": "63d5bf6018c66aed452b1ba7",
         "name": "Jane Doe",
         "email": "janedoe@example.com",
         "role": "publisher",
         "phone": "555-555-5556",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1ba8",
         "name": "Michael Johnson",
         "email": "michaeljohnson@example.com",
         "role": "user",
         "phone": "555-555-5557",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1ba9",
         "name": "Emily Davis",
         "email": "emilydavis@example.com",
         "role": "publisher",
         "phone": "555-555-5558",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1baa",
         "name": "Matthew Martinez",
         "email": "matthewmartinez@example.com",
         "role": "user",
         "phone": "555-555-5559",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1bab",
         "name": "Nicholas Rodriguez",
         "email": "nicholasrodriguez@example.com",
         "role": "publisher",
         "phone": "555-555-5560",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1bac",
         "name": "Ashley Garcia",
         "email": "ashleygarcia@example.com",
         "role": "user",
         "phone": "555-555-5561",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1bad",
         "name": "David Martinez",
         "email": "davidmartinez@example.com",
         "role": "publisher",
         "phone": "555-555-5562",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1bae",
         "name": "Jessica Hernandez",
         "email": "jessicahernandez@example.com",
         "role": "user",
         "phone": "555-555-5563",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     },
     {
+        "_id": "63d5bf6018c66aed452b1baf",
         "name": "Richard Lopez",
         "email": "richardlopez@example.com",
         "role": "publisher",
         "phone": "555-555-5564",
-        "password": "123456"
+        "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
+        "createdAt": "1674952544037",
+        "updatedAt": "1674952544037"
     }
 ]
