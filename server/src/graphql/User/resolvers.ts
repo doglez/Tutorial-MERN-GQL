@@ -1,6 +1,7 @@
 import User from "../../models/User";
 import httpStatus from "http-status";
 import ErrorResponse from "../../util/ErrorResponse";
+import ErrorHandler from "../../middleware/ErrorHandler";
 
 interface IArgs {
     id: string;
@@ -26,41 +27,71 @@ const queries = {
 
 const mutations = {
     createUser: async (_parent: any, args: IArgs) => {
-        const { name, email, password } = args;
+        try {
+            const { name, email, password } = args;
 
-        const user = await User.create({
-            name,
-            email,
-            password,
-        });
+            const user = await User.create({
+                name,
+                email,
+                password,
+            });
 
-        return user;
+            return user;
+        } catch (error) {
+            return ErrorHandler(error);
+        }
     },
     updateUser: async (_parent: any, args: IArgs) => {
-        const { id, name, role, phone } = args;
+        try {
+            const { id, name, role, phone } = args;
 
-        let user = await User.findById(id);
+            let user = await User.findById(id);
 
-        if (!user) {
-            throw new ErrorResponse(
-                `User not found with id ${id}`,
-                httpStatus["404_NAME"],
-                "id",
-                httpStatus.NOT_FOUND
+            if (!user) {
+                return new ErrorResponse(
+                    `User not found with id ${id}`,
+                    httpStatus["404_NAME"],
+                    "id",
+                    httpStatus.NOT_FOUND
+                );
+            }
+
+            user = await User.findByIdAndUpdate(
+                id,
+                {
+                    name,
+                    role,
+                    phone,
+                },
+                { new: true, runValidators: true }
             );
+
+            return user;
+        } catch (error) {
+            return ErrorHandler(error);
         }
+    },
+    deleteUser: async (_parent: any, args: IArgs) => {
+        try {
+            const { id } = args;
 
-        user = await User.findByIdAndUpdate(
-            id,
-            {
-                name,
-                role,
-                phone,
-            },
-            { new: true, runValidators: true }
-        );
+            let user = await User.findById(id);
 
-        return user;
+            if (!user) {
+                return new ErrorResponse(
+                    `User not found with id ${id}`,
+                    httpStatus["404_NAME"],
+                    "id",
+                    httpStatus.NOT_FOUND
+                );
+            }
+
+            user = await User.findByIdAndDelete(id);
+
+            return user;
+        } catch (error) {
+            return ErrorHandler(error);
+        }
     },
 };
 

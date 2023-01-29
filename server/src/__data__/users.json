@@ -3,7 +3,7 @@
         "_id": "63d5bf6018c66aed452b1ba3",
         "name": "Admin Account",
         "email": "admin@example.com",
-        "role": "user",
+        "role": "admin",
         "phone": "555-555-5552",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
         "createdAt": "2023-01-29",
