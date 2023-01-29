@@ -1,116 +1,101 @@
 [
     {
+        "_id": "63d5cd6f487dc70f92ae78ae",
         "name": "F. Scott Fitzgerald",
-        "born": "September 24, 1896",
-        "died": "December 21, 1940",
+        "born": "1896-09-24",
+        "died": "1940-12-21",
         "nationality": "American",
-        "occupation": "Author, Screenwriter",
-        "notable_works": [
-            "The Great Gatsby",
-            "This Side of Paradise",
-            "The Beautiful and Damned"
-        ],
-        "image_url": "https://www.example.com/images/f_scott_fitzgerald.jpg",
-        "biography": "Francis Scott Fitzgerald was an American novelist, essayist, screenwriter, and short-story writer. He is widely regarded as one of the greatest American writers of the 20th century. Fitzgerald's novels and short stories are distinguished by their idealism, a powerful sense of social and personal tragedy, and a wry humor. He is best known for his novel The Great Gatsby (1925), widely considered one of the greatest novels ever written."
+        "occupation": "Novelist, Short-story writer",
+        "works": [],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/F._Scott_Fitzgerald_1921.jpg",
+        "biography": "Francis Scott Fitzgerald was an American novelist, widely regarded as one of the greatest, if not the greatest, writers of the 20th century. He is best known for his novels The Great Gatsby and Tender is the Night, as well as his many short stories."
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78af",
         "name": "J.D. Salinger",
-        "born": "January 1, 1919",
-        "died": "January 27, 2010",
+        "born": "1919-01-01",
+        "died": "2010-01-27",
         "nationality": "American",
-        "occupation": "Author, Screenwriter",
-        "notable_works": [
-            "The Catcher in the Rye",
-            "Nine Stories",
-            "Franny and Zooey"
-        ],
-        "image_url": "https://www.example.com/images/jd_salinger.jpg",
-        "biography": "Jerome David Salinger was an American writer, known for his novel The Catcher in the Rye. The novel's antihero, Holden Caulfield, has become an icon for teenage rebellion and alienation. The novel was included on Time magazine's 2005 list of the 100 best English-language novels written since 1923 and it was named by Modern Library and its readers as one of the 100 best English-language novels of the 20th century. He published his final original work in 1965 and afterward led a reclusive lifestyle, only publishing a handful of short stories until his death in 2010."
+        "occupation": "Novelist, Short-story writer",
+        "works": [],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/JD_Salinger.jpg",
+        "biography": "Jerome David Salinger was an American writer best known for his novel The Catcher in the Rye. He published several short stories in the 1940s and 1950s that were well-received, but he became reclusive in the last half of his life and published nothing after 1965."
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78b0",
         "name": "Harper Lee",
-        "born": "April 28, 1926",
-        "died": "February 19, 2016",
+        "born": "1926-04-28",
+        "died": "2016-02-19",
         "nationality": "American",
-        "occupation": "Author",
-        "notable_works": ["To Kill a Mockingbird"],
-        "image_url": "https://www.example.com/images/harper_lee.jpg",
-        "biography": "Nelle Harper Lee was an American novelist widely known for To Kill a Mockingbird, published in 1960. Immediately successful, it won the 1961 Pulitzer Prize and has become a classic of modern American literature. The plot and characters are loosely based on Lee's observations of her family, her neighbors and an event that occurred near her hometown of Monroeville, Alabama, in 1936, when she was 10 years old."
+        "occupation": "Novelist",
+        "works": [],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Harper_Lee_NYWTS_3.jpg",
+        "biography": "Nelle Harper Lee was an American novelist, known for her 1960 novel To Kill a Mockingbird. It won the Pulitzer Prize and has become a classic of modern American literature. The novel is widely taught in schools in the United States with more than 30 million copies sold worldwide."
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78b1",
         "name": "J.R.R. Tolkien",
-        "born": "January 3, 1892",
-        "died": "September 2, 1973",
+        "born": "1892-01-03",
+        "died": "1973-09-02",
         "nationality": "British",
-        "occupation": "Author, Philologist, University Professor",
-        "notable_works": [
-            "The Hobbit",
-            "The Lord of the Rings",
-            "The Silmarillion"
-        ],
-        "image_url": "https://www.example.com/images/jrr_tolkien.jpg",
-        "biography": "John Ronald Reuel Tolkien, was an English writer, poet, and academic, who is best known as the author of the classic high-fantasy works The Hobbit and The Lord of the Rings. He was a close friend of C. S. Lewis—they were both members of the informal literary group known as the Inklings—and both authors were Catholic converts. Tolkien served as the Rawlinson and Bosworth Professor of Anglo-Saxon and Fellow of Pembroke College, Oxford, from 1925 to 1945 and Merton Professor of English Language and Literature and Fellow of Merton College, Oxford, from 1945 to 1959."
+        "occupation": "Novelist, Scholar, Poet",
+        "works": [],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Tolkien_1916.jpg",
+        "biography": "John Ronald Reuel Tolkien was an English writer, poet, and scholar, best known as the author of the classic high-fantasy works The Hobbit and The Lord of the Rings. He was also a professor of Anglo-Saxon at Oxford University, and of English Language and Literature at Merton College, Oxford"
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78b2",
         "name": "J.K. Rowling",
-        "born": "July 31, 1965",
+        "born": "1965-07-31",
         "died": null,
         "nationality": "British",
-        "occupation": "Author, Screenwriter",
-        "notable_works": ["Harry Potter series"],
-        "image_url": "https://www.example.com/images/jk_rowling.jpg",
-        "biography": "Joanne Rowling is a British author, philanthropist, film producer, television producer, and screenwriter. She is best known for writing the Harry Potter fantasy series, which won multiple awards and sold more than 500 million copies, becoming the best-selling book series in history. The books are the basis of a popular film series, over which Rowling had overall approval on the scripts and was a producer on the final films. She also writes crime novels under the pen name Robert Galbraith."
+        "occupation": "Author",
+        "works": [],
+        "image_url": "https://images.unsplash.com/photo-1516474930398-b2de2bce2b5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "biography": "Joanne Rowling, is a British author, philanthropist, film producer, television producer, and screenwriter. She is best known for writing the Harry Potter fantasy series, which has won multiple awards and sold more than 500 million copies, becoming the best-selling book series in history. The books are the basis of a popular film series, over which Rowling had overall approval on the scripts."
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78b3",
         "name": "Anne Frank",
-        "born": "June 12, 1929",
-        "died": "March 1945",
+        "born": "1929-06-12",
+        "died": "1945-03-31",
         "nationality": "German",
-        "occupation": "Diary Writer",
-        "notable_works": ["The Diary of Anne Frank"],
-        "image_url": "https://www.example.com/images/anne_frank.jpg",
-        "biography": "Anne Frank was a German-Dutch diarist. One of the most discussed Jewish victims of the Holocaust, she gained fame posthumously with the publication of The Diary of a Young Girl, in which she documents her life in hiding from 1942 to 1944, during the German occupation of the Netherlands in World War II. It is one of the world's most widely known books and has been the basis for several plays and films."
+        "occupation": "Diary writer",
+        "works": [],
+        "image_url": "https://images.unsplash.com/photo-1571475368710-b8f8e9a9fcf1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+        "biography": "Anne Frank was a German-born Jewish girl who, along with her family and four other people, hid in the second and third floor rooms at the back of her father's Amsterdam company during the Nazi occupation of the Netherlands from June 12, 1942, to August 4, 1944. During this time, Anne wrote about her thoughts, feelings, and daily life in a diary, which was later published as The Diary of Anne Frank."
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78b4",
         "name": "Paulo Coelho",
-        "born": "August 24, 1947",
+        "born": "1947-08-24",
         "died": null,
         "nationality": "Brazilian",
-        "occupation": "Author, Lyricist",
-        "notable_works": [
-            "The Alchemist",
-            "Eleven Minutes",
-            "By the River Piedra I Sat Down and Wept"
-        ],
-        "image_url": "https://www.example.com/images/paulo_coelho.jpg",
-        "biography": "Paulo Coelho is a Brazilian lyricist and novelist. He is the recipient of numerous international awards, amongst them the Crystal Award by the World Economic Forum. His novel The Alchemist has sold over 225 million copies worldwide, becoming one of the best-selling books in history and the all-time best-selling Portuguese-language book. He has been a member of the Brazilian Academy of Letters since 2002."
+        "occupation": "Author",
+        "works": [],
+        "image_url": "https://images.unsplash.com/photo-1498989610148-65f6f1b2f238?ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80",
+        "biography": "Paulo Coelho is a Brazilian author, best known for his novels The Alchemist and Eleven Minutes, which have sold over 225 million copies worldwide and been translated into 80 languages. He is also a prominent blogger, having been listed by The Guardian as one of the top 100 most powerful people in the world of digital media."
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78b5",
         "name": "Ernest Hemingway",
-        "born": "July 21, 1899",
-        "died": "July 2, 1961",
+        "born": "1899-07-21",
+        "died": "1961-07-02",
         "nationality": "American",
-        "occupation": "Author, Journalist",
-        "notable_works": [
-            "The Old Man and the Sea",
-            "For Whom the Bell Tolls",
-            "A Farewell to Arms"
-        ],
-        "image_url": "https://www.example.com/images/ernest_hemingway.jpg",
-        "biography": "Ernest Hemingway was an American journalist, novelist, and short-story writer. His economical and understated style—which he termed the iceberg theory—had a strong influence on 20th-century fiction, while his adventurous lifestyle and his public image brought him admiration from later generations. Hemingway produced most of his work between the mid-1920s and the mid-1950s, and he won the Nobel Prize in Literature in 1954. He published seven novels, six short-story collections, and two non-fiction works."
+        "occupation": "Novelist, short story writer, journalist",
+        "works": [],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Ernest_Hemingway_1923_passport_photo.jpg/440px-Ernest_Hemingway_1923_passport_photo.jpg",
+        "biography": "Ernest Hemingway was an American novelist, short story writer, and journalist. His economical and understated style had a strong influence on 20th-century fiction, while his life of adventure and his public image influenced later generations. Hemingway produced most of his work between the mid-1920s and the mid-1950s, and he won the Nobel Prize in Literature in 1954. He published seven novels, six short story collections, and two non-fiction works. Three of his novels, four short story collections, and three non-fiction works were published posthumously. Many of his works are considered classics of American literature."
     },
     {
+        "_id": "63d5cd6f487dc70f92ae78b6",
         "name": "Oscar Wilde",
-        "born": "October 16, 1854",
-        "died": "November 30, 1900",
+        "born": "1854-10-16",
+        "died": "1900-11-30",
         "nationality": "Irish",
-        "occupation": "Author, Playwright, Poet",
-        "notable_works": [
-            "The Picture of Dorian Gray",
-            "The Importance of Being Earnest",
-            "The Ballad of Reading Gaol"
-        ],
-        "image_url": "https://www.example.com/images/oscar_wilde.jpg",
-        "biography": "Oscar Wilde was an Irish poet and playwright. After writing in different forms throughout the 1880s, he became one of London's most popular playwrights in the early 1890s. Today he is remembered for his epigrams, his novel The Picture of Dorian Gray, his plays, as well as the circumstances of his imprisonment and early death. Wilde's parents were successful Anglo-Irish intellectuals in Dublin. Their son became fluent in French and German early in life."
+        "occupation": "Writer, poet, playwright",
+        "works": [],
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Oscar_Wilde_Sarony.jpg/440px-Oscar_Wilde_Sarony.jpg",
+        "biography": "Oscar Wilde was an Irish writer, poet, and playwright. He is best known for his epigrams and plays, his novel The Picture of Dorian Gray, and the circumstances of his criminal conviction for homosexuality and early death. He was one of London's most popular playwrights in the early 1890s, and today is remembered for his epigrams, his only novel, The Picture of Dorian Gray, his plays, as well as the circumstances of his imprisonment and early death. Wilde's parents were successful Anglo-Irish intellectuals in Dublin. Their son became fluent in French and German early in life. At university, Wilde read Greats; he proved himself to be an outstanding classicist, first at Dublin, then at Oxford."
     }
 ]

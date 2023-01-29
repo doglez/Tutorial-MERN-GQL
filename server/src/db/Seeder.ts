@@ -4,6 +4,7 @@ import colors from "colors";
 import path from "path";
 import User from "../models/User";
 import dbConnect from "./dbConnect";
+import Writer from "../models/Writer";
 
 colors.enable();
 
@@ -16,9 +17,9 @@ dotenv.config({
 const users = JSON.parse(
     fs.readFileSync(`${process.cwd()}/src/__data__/users.json`, "utf-8")
 );
-// const writers = JSON.parse(
-//     fs.readFileSync(`${process.cwd()}/src/__data__/writers.json`, "utf-8")
-// );
+const writers = JSON.parse(
+    fs.readFileSync(`${process.cwd()}/src/__data__/writers.json`, "utf-8")
+);
 // const books = JSON.parse(
 //     fs.readFileSync(`${process.cwd()}/src/__data__/books.json`, "utf-8")
 // );
@@ -29,6 +30,7 @@ const users = JSON.parse(
 const importData = async (): Promise<void> => {
     try {
         await User.insertMany(users);
+        await Writer.insertMany(writers);
 
         console.log("Data Import Success".green.inverse);
         process.exit();
@@ -41,6 +43,7 @@ const importData = async (): Promise<void> => {
 const deleteData = async () => {
     try {
         await User.deleteMany({});
+        await Writer.deleteMany({});
 
         console.log("Data delete...".red.inverse);
         process.exit();

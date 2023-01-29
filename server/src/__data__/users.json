@@ -6,8 +6,8 @@
         "role": "user",
         "phone": "555-555-5552",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544035",
-        "updatedAt": "1674952544035"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1ba4",
@@ -16,8 +16,8 @@
         "role": "publisher",
         "phone": "555-555-5553",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544036",
-        "updatedAt": "1674952544036"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1ba5",
@@ -26,8 +26,8 @@
         "role": "user",
         "phone": "555-555-5554",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544036",
-        "updatedAt": "1674952544036"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1ba6",
@@ -36,8 +36,8 @@
         "role": "user",
         "phone": "555-555-5555",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544036",
-        "updatedAt": "1674952544036"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1ba7",
@@ -46,8 +46,8 @@
         "role": "publisher",
         "phone": "555-555-5556",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1ba8",
@@ -56,8 +56,8 @@
         "role": "user",
         "phone": "555-555-5557",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1ba9",
@@ -66,8 +66,8 @@
         "role": "publisher",
         "phone": "555-555-5558",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1baa",
@@ -76,8 +76,8 @@
         "role": "user",
         "phone": "555-555-5559",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1bab",
@@ -86,8 +86,8 @@
         "role": "publisher",
         "phone": "555-555-5560",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1bac",
@@ -96,8 +96,8 @@
         "role": "user",
         "phone": "555-555-5561",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1bad",
@@ -106,8 +106,8 @@
         "role": "publisher",
         "phone": "555-555-5562",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1bae",
@@ -116,8 +116,8 @@
         "role": "user",
         "phone": "555-555-5563",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     },
     {
         "_id": "63d5bf6018c66aed452b1baf",
@@ -126,7 +126,7 @@
         "role": "publisher",
         "phone": "555-555-5564",
         "password": "$2a$10$GixYAp38KI9RG3x3rSJvKeR5xk1bIss6iPQ34iAxDLf6P7Ax3DuAq",
-        "createdAt": "1674952544037",
-        "updatedAt": "1674952544037"
+        "createdAt": "2023-01-29",
+        "updatedAt": "2023-01-29"
     }
 ]
