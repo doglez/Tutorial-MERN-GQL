@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 interface IWriterSchema {
-    id: string;
+    _id: string;
     name: string;
     born: Date;
     died: Date;

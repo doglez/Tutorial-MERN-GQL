@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 export interface IBook {
+    _id: string;
     title: string;
     authors: [mongoose.Schema.Types.ObjectId];
     prefacio: string;
@@ -12,6 +13,7 @@ export interface IBook {
     image_url: string;
     resume: string;
     other_related: [mongoose.Schema.Types.ObjectId];
+    averageRating: number;
 }
 
 const BookSchema = new mongoose.Schema<IBook>(
@@ -79,11 +81,26 @@ const BookSchema = new mongoose.Schema<IBook>(
             type: [mongoose.Schema.Types.ObjectId],
             ref: "Book",
         },
+        averageRating: {
+            type: Number,
+            min: [1, "Rating must be at least 1"],
+            max: [5, "Rating must can not be more than 5"],
+        },
     },
     {
         timestamps: true,
         versionKey: false,
+        toJSON: { virtuals: true },
+        toObject: { virtuals: true },
     }
 );
+
+// Reverse populate with virtuals
+BookSchema.virtual("reviews", {
+    ref: "Review",
+    localField: "_id",
+    foreignField: "book",
+    justOne: false,
+});
 
 export default mongoose.model("Book", BookSchema);

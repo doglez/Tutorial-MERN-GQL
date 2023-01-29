@@ -5,7 +5,7 @@ import { JWT_EXPIRE, JWT_SECRET } from "../config/Config";
 import crypto from "crypto";
 
 export interface IUser {
-    id: string;
+    _id: string;
     name: string;
     email: string;
     role: string;
@@ -59,6 +59,8 @@ const UserSchema = new mongoose.Schema<IUser>(
     {
         timestamps: true,
         versionKey: false,
+        toJSON: { virtuals: true },
+        toObject: { virtuals: true },
     }
 );
 
@@ -105,5 +107,13 @@ UserSchema.methods.getResetPassToken = function () {
 
     return resetToken;
 };
+
+// Reverse populate with virtuals
+UserSchema.virtual("reviews", {
+    ref: "Review",
+    localField: "_id",
+    foreignField: "user",
+    justOne: false,
+});
 
 export default mongoose.model("User", UserSchema);

@@ -10,7 +10,8 @@
         "price": 10.99,
         "isbn": "9780743273565",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51EG732BV3L._SX321_BO1,204,203,200_.jpg",
-        "resume": "The novel follows the life and times of Jay Gatsby, a mysterious millionaire who throws extravagant parties in hopes of winning back his former love, Daisy Buchanan. As the summer progresses, Gatsby's past and true identity are revealed, leading to a tragic ending."
+        "resume": "The novel follows the life and times of Jay Gatsby, a mysterious millionaire who throws extravagant parties in hopes of winning back his former love, Daisy Buchanan. As the summer progresses, Gatsby's past and true identity are revealed, leading to a tragic ending.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baa7",
@@ -23,7 +24,8 @@
         "price": 12.99,
         "isbn": "0316769177",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51E6R1X9KLL._SX325_BO1,204,203,200_.jpg",
-        "resume": "The novel follows Holden as he wanders around New York City, struggling with the death of his younger brother and his own feelings of alienation. Along the way, he encounters a variety of characters, both real and imagined, and grapples with the idea of growing up and losing his innocence."
+        "resume": "The novel follows Holden as he wanders around New York City, struggling with the death of his younger brother and his own feelings of alienation. Along the way, he encounters a variety of characters, both real and imagined, and grapples with the idea of growing up and losing his innocence.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baa8",
@@ -36,7 +38,8 @@
         "price": 14.99,
         "isbn": "9780061120084",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51EXZszFZnL._SX331_BO1,204,203,200_.jpg",
-        "resume": "The novel is told through the eyes of Scout Finch, a young girl growing up in the small town of Maycomb, Alabama during the 1930s. Through her eyes, the reader is exposed to the racial prejudice and injustice that existed in the South during this time period. The novel also explores themes of innocence, growing up and the loss of childhood, and the coexistence of good and evil in human nature."
+        "resume": "The novel is told through the eyes of Scout Finch, a young girl growing up in the small town of Maycomb, Alabama during the 1930s. Through her eyes, the reader is exposed to the racial prejudice and injustice that existed in the South during this time period. The novel also explores themes of innocence, growing up and the loss of childhood, and the coexistence of good and evil in human nature.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baa9",
@@ -49,7 +52,8 @@
         "price": 16.99,
         "isbn": "9780544003415",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51hsfQ9hqrL._SX329_BO1,204,203,200_.jpg",
-        "resume": "The Lord of the Rings is a story of good versus evil, the power of friendship and sacrifice, and the triumph of courage and hope in the face of overwhelming odds. The novel is set in the fictional world of Middle-earth, a land of elves, dwarves, and talking animals, where a powerful and evil force threatens to enslave all living things. The story follows hobbit Frodo Baggins as he and a fellowship of other creatures embark on a quest to destroy the One Ring, the source of this evil, and save Middle-earth."
+        "resume": "The Lord of the Rings is a story of good versus evil, the power of friendship and sacrifice, and the triumph of courage and hope in the face of overwhelming odds. The novel is set in the fictional world of Middle-earth, a land of elves, dwarves, and talking animals, where a powerful and evil force threatens to enslave all living things. The story follows hobbit Frodo Baggins as he and a fellowship of other creatures embark on a quest to destroy the One Ring, the source of this evil, and save Middle-earth.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baaa",
@@ -62,7 +66,8 @@
         "price": 14.99,
         "isbn": "9780547928227",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51-sxuYKHCL._SX324_BO1,204,203,200_.jpg",
-        "resume": "The Hobbit is a story of adventure and friendship, set in the magical world of Middle-earth. The novel follows hobbit Bilbo Baggins as he is recruited by the wizard Gandalf to join a group of dwarves on a quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, they encounter many challenges and adventures, including giant spiders, shape-shifting wolves, and enchanted forests. The book is also a prequel to The Lord of the Rings"
+        "resume": "The Hobbit is a story of adventure and friendship, set in the magical world of Middle-earth. The novel follows hobbit Bilbo Baggins as he is recruited by the wizard Gandalf to join a group of dwarves on a quest to reclaim the Lonely Mountain and its treasure from the dragon Smaug. Along the way, they encounter many challenges and adventures, including giant spiders, shape-shifting wolves, and enchanted forests. The book is also a prequel to The Lord of the Rings",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baab",
@@ -75,7 +80,8 @@
         "price": 9.99,
         "isbn": "9780747532699",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51HSkTKlauL._SX346_BO1,204,203,200_.jpg",
-        "resume": "Harry Potter and the Sorcerer's Stone is the first book in the Harry Potter series written by J.K. Rowling. The story follows an orphaned boy named Harry Potter as he discovers that he is a wizard and begins his first year at Hogwarts School of Witchcraft and Wizardry. Along the way, he makes new friends and enemies, and uncovers a mysterious plot involving a powerful and dangerous object known as the Sorcerer's Stone. The book is a fantasy and adventure story that is beloved by children and adults alike."
+        "resume": "Harry Potter and the Sorcerer's Stone is the first book in the Harry Potter series written by J.K. Rowling. The story follows an orphaned boy named Harry Potter as he discovers that he is a wizard and begins his first year at Hogwarts School of Witchcraft and Wizardry. Along the way, he makes new friends and enemies, and uncovers a mysterious plot involving a powerful and dangerous object known as the Sorcerer's Stone. The book is a fantasy and adventure story that is beloved by children and adults alike.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baac",
@@ -88,7 +94,8 @@
         "price": 8.99,
         "isbn": "9780385473788",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51-S7V1B9SL._SX318_BO1,204,203,200_.jpg",
-        "resume": "The Diary of a Young Girl is a historical book written by Anne Frank. It is a collection of diary entries written by Anne during her time in hiding from the Nazis during the Holocaust. The book provides a unique insight into the life of a Jewish girl during this period and is a powerful testimony to the human spirit. It is a must-read for anyone interested in history and the Holocaust."
+        "resume": "The Diary of a Young Girl is a historical book written by Anne Frank. It is a collection of diary entries written by Anne during her time in hiding from the Nazis during the Holocaust. The book provides a unique insight into the life of a Jewish girl during this period and is a powerful testimony to the human spirit. It is a must-read for anyone interested in history and the Holocaust.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baad",
@@ -101,7 +108,8 @@
         "price": 12.99,
         "isbn": "9780062315007",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51ySJjHxDfL._SX324_BO1,204,203,200_.jpg",
-        "resume": "The Alchemist is a novel written by Paulo Coelho that tells the story of a young shepherd named Santiago who embarks on a journey to fulfill his personal legend and realize his dreams. Along the way, he meets a series of characters who teach him about the secrets of the universe, the importance of listening to his heart, and the power of love. The book is a beautiful and inspiring story that has become a classic of modern literature and has been translated into over 80 languages."
+        "resume": "The Alchemist is a novel written by Paulo Coelho that tells the story of a young shepherd named Santiago who embarks on a journey to fulfill his personal legend and realize his dreams. Along the way, he meets a series of characters who teach him about the secrets of the universe, the importance of listening to his heart, and the power of love. The book is a beautiful and inspiring story that has become a classic of modern literature and has been translated into over 80 languages.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baae",
@@ -114,7 +122,8 @@
         "price": 7.99,
         "isbn": "9780684830490",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/41W%2B7sMhKsL._SX316_BO1,204,203,200_.jpg",
-        "resume": "The Old Man and the Sea is a novella written by Ernest Hemingway. The story follows an aging Cuban fisherman, Santiago, as he struggles to catch a giant marlin. Santiago's physical and emotional battle with the marlin is a symbol of the human struggle against nature and the passage of time. The book is considered one of Hemingway's greatest works and won the Pulitzer Prize in 1953."
+        "resume": "The Old Man and the Sea is a novella written by Ernest Hemingway. The story follows an aging Cuban fisherman, Santiago, as he struggles to catch a giant marlin. Santiago's physical and emotional battle with the marlin is a symbol of the human struggle against nature and the passage of time. The book is considered one of Hemingway's greatest works and won the Pulitzer Prize in 1953.",
+        "averageRating": 1
     },
     {
         "_id": "63d5e66dc1f8b4bfdef2baaf",
@@ -127,6 +136,7 @@
         "price": 6.99,
         "isbn": "9780486469472",
         "image_url": "https://images-na.ssl-images-amazon.com/images/I/51O4E7ywY5L._SX329_BO1,204,203,200_.jpg",
-        "resume": "The Picture of Dorian Gray is a novel written by Oscar Wilde. The story follows a handsome young man named Dorian Gray who is given a portrait of himself. As Dorian indulges in a life of hedonism and immorality, his portrait reflects the ugliness and corruption of his soul. The book is a classic of literature and is considered one of Wilde's greatest works. It deals with themes of morality, beauty, and the consequences of leading a life of excess."
+        "resume": "The Picture of Dorian Gray is a novel written by Oscar Wilde. The story follows a handsome young man named Dorian Gray who is given a portrait of himself. As Dorian indulges in a life of hedonism and immorality, his portrait reflects the ugliness and corruption of his soul. The book is a classic of literature and is considered one of Wilde's greatest works. It deals with themes of morality, beauty, and the consequences of leading a life of excess.",
+        "averageRating": 1
     }
 ]
