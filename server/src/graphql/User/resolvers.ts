@@ -14,14 +14,31 @@ interface IArgs {
 
 const queries = {
     getUsers: async () => {
-        const users = await User.find();
+        try {
+            const users = await User.find();
 
-        return users;
+            return users;
+        } catch (error) {
+            return ErrorHandler(error);
+        }
     },
     showUser: async (_parent: any, args: IArgs) => {
-        const users = await User.findById(args.id);
+        try {
+            const user = await User.findById(args.id);
 
-        return users;
+            if (!user) {
+                return new ErrorResponse(
+                    `User not found with id ${args.id}`,
+                    httpStatus["404_NAME"],
+                    "_id",
+                    httpStatus.NOT_FOUND
+                );
+            }
+
+            return user;
+        } catch (error) {
+            return ErrorHandler(error);
+        }
     },
 };
 
@@ -51,7 +68,7 @@ const mutations = {
                 return new ErrorResponse(
                     `User not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "id",
+                    "_id",
                     httpStatus.NOT_FOUND
                 );
             }
@@ -81,7 +98,7 @@ const mutations = {
                 return new ErrorResponse(
                     `User not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "id",
+                    "_id",
                     httpStatus.NOT_FOUND
                 );
             }
