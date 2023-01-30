@@ -5,8 +5,8 @@ export interface IReview {
     title: string;
     text: string;
     rating: number;
-    user: mongoose.Schema.Types.ObjectId;
-    book: mongoose.Schema.Types.ObjectId;
+    userId: mongoose.Schema.Types.ObjectId;
+    bookId: mongoose.Schema.Types.ObjectId;
 }
 
 const ReviewSchema = new mongoose.Schema<IReview>(
@@ -31,12 +31,12 @@ const ReviewSchema = new mongoose.Schema<IReview>(
             max: 5,
             required: [true, "Rating is required."],
         },
-        user: {
+        userId: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "User",
             required: true,
         },
-        book: {
+        bookId: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "Book",
             required: true,
@@ -49,6 +49,6 @@ const ReviewSchema = new mongoose.Schema<IReview>(
 );
 
 // Prevent user from submitting more than one review per book
-ReviewSchema.index({ book: 1, user: 1 }, { unique: true });
+ReviewSchema.index({ bookId: 1, userId: 1 }, { unique: true });
 
 export default mongoose.model("Review", ReviewSchema);
