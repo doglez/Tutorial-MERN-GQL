@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-interface IWriterSchema {
+export interface IWriter {
     _id: string;
     name: string;
     born: Date;
@@ -12,7 +12,7 @@ interface IWriterSchema {
     biography: string;
 }
 
-const WriterSchema = new mongoose.Schema<IWriterSchema>(
+const WriterSchema = new mongoose.Schema<IWriter>(
     {
         name: {
             type: String,
