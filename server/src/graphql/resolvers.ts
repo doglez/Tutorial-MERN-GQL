@@ -2,6 +2,8 @@ import httpStatus from "http-status";
 import ErrorHandler from "../middleware/ErrorHandler";
 import User from "../models/User";
 import ErrorResponse from "../util/ErrorResponse";
+import Writer from "../models/Writer";
+import { dateScalar } from "./scalars";
 
 interface IArgs {
     id: string;
@@ -13,6 +15,7 @@ interface IArgs {
 }
 
 const resolvers = {
+    DateTime: dateScalar,
     Query: {
         getUsers: async () => {
             try {
@@ -41,19 +44,28 @@ const resolvers = {
                 return ErrorHandler(error);
             }
         },
+        getWriters: async () => {
+            try {
+                const writers = await Writer.find();
+
+                return writers;
+            } catch (error) {
+                return ErrorHandler(error);
+            }
+        },
     },
 
     Mutation: {
         createUser: async (_parent: any, args: IArgs) => {
             try {
                 const { name, email, password } = args;
-    
+
                 const user = await User.create({
                     name,
                     email,
                     password,
                 });
-    
+
                 return user;
             } catch (error) {
                 return ErrorHandler(error);
@@ -62,9 +74,9 @@ const resolvers = {
         updateUser: async (_parent: any, args: IArgs) => {
             try {
                 const { id, name, role, phone } = args;
-    
+
                 let user = await User.findById(id);
-    
+
                 if (!user) {
                     return new ErrorResponse(
                         `User not found with id ${id}`,
@@ -73,7 +85,7 @@ const resolvers = {
                         httpStatus.NOT_FOUND
                     );
                 }
-    
+
                 user = await User.findByIdAndUpdate(
                     id,
                     {
@@ -83,7 +95,7 @@ const resolvers = {
                     },
                     { new: true, runValidators: true }
                 );
-    
+
                 return user;
             } catch (error) {
                 return ErrorHandler(error);
@@ -92,9 +104,9 @@ const resolvers = {
         deleteUser: async (_parent: any, args: IArgs) => {
             try {
                 const { id } = args;
-    
+
                 let user = await User.findById(id);
-    
+
                 if (!user) {
                     return new ErrorResponse(
                         `User not found with id ${id}`,
@@ -103,15 +115,15 @@ const resolvers = {
                         httpStatus.NOT_FOUND
                     );
                 }
-    
+
                 user = await User.findByIdAndDelete(id);
-    
+
                 return user;
             } catch (error) {
                 return ErrorHandler(error);
             }
         },
-    }
+    },
 };
 
 export default resolvers;
