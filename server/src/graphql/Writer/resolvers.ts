@@ -15,15 +15,15 @@ const queries = {
     },
     showWriter: async (_parent: any, args: IWriter) => {
         try {
-            const { _id } = args;
+            const { id } = args;
 
-            const writer = await Writer.findById(_id);
+            const writer = await Writer.findById(id);
 
             if (!writer) {
                 return new ErrorResponse(
-                    `Writer not found with id ${_id}`,
+                    `Writer not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "_id",
+                    "id",
                     httpStatus.NOT_FOUND
                 );
             }
@@ -68,7 +68,7 @@ const mutations = {
     updateWriter: async (_parent: any, args: IWriter) => {
         try {
             const {
-                _id,
+                id,
                 name,
                 born,
                 died,
@@ -79,19 +79,19 @@ const mutations = {
                 biography,
             } = args;
 
-            let writer = await Writer.findById(_id);
+            let writer = await Writer.findById(id);
 
             if (!writer) {
                 return new ErrorResponse(
-                    `Writer not found with id ${_id}`,
+                    `Writer not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "_id",
+                    "id",
                     httpStatus.NOT_FOUND
                 );
             }
 
             writer = await Writer.findByIdAndUpdate(
-                _id,
+                id,
                 {
                     name,
                     born,
@@ -112,20 +112,20 @@ const mutations = {
     },
     deleteWriter: async (_parent: any, args: IWriter) => {
         try {
-            const { _id } = args;
+            const { id } = args;
 
-            let writer = await Writer.findById(_id);
+            let writer = await Writer.findById(id);
 
             if (!writer) {
                 return new ErrorResponse(
-                    `Writer not found with id ${_id}`,
+                    `Writer not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "_id",
+                    "id",
                     httpStatus.NOT_FOUND
                 );
             }
 
-            writer = await Writer.findByIdAndDelete(_id);
+            writer = await Writer.findByIdAndDelete(id);
 
             return writer;
         } catch (error) {

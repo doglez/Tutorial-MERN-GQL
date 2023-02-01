@@ -1,6 +1,6 @@
 const types = `#graphql
     type Writer {
-        _id: ID
+        id: ID
         name: String
         born: DateTime
         died: DateTime

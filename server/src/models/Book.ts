@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export interface IBook {
-    _id: string;
+    id: string;
     title: string;
     authors: [mongoose.Schema.Types.ObjectId];
     prefacio: string;

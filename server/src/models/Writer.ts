@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export interface IWriter {
-    _id: string;
+    id: string;
     name: string;
     born: Date;
     died: Date;

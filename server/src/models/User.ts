@@ -5,7 +5,7 @@ import { JWT_EXPIRE, JWT_SECRET } from "../config/Config";
 import crypto from "crypto";
 
 export interface IUser {
-    _id: string;
+    id: string;
     name: string;
     email: string;
     role: string;

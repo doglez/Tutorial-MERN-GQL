@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 export interface IToken {
-    _id: string;
+    id: string;
     user: mongoose.Schema.Types.ObjectId;
     token: string;
     status: string;

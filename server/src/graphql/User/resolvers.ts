@@ -15,15 +15,15 @@ const queries = {
     },
     showUser: async (_parent: any, args: IUser) => {
         try {
-            const { _id } = args;
+            const { id } = args;
 
-            const user = await User.findById(_id);
+            const user = await User.findById(id);
 
             if (!user) {
                 return new ErrorResponse(
-                    `User not found with id ${_id}`,
+                    `User not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "_id",
+                    "id",
                     httpStatus.NOT_FOUND
                 );
             }
@@ -53,21 +53,21 @@ const mutations = {
     },
     updateUser: async (_parent: any, args: IUser) => {
         try {
-            const { _id, name, role, phone } = args;
+            const { id, name, role, phone } = args;
 
-            let user = await User.findById(_id);
+            let user = await User.findById(id);
 
             if (!user) {
                 return new ErrorResponse(
-                    `User not found with id ${_id}`,
+                    `User not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "_id",
+                    "id",
                     httpStatus.NOT_FOUND
                 );
             }
 
             user = await User.findByIdAndUpdate(
-                _id,
+                id,
                 {
                     name,
                     role,
@@ -83,20 +83,20 @@ const mutations = {
     },
     deleteUser: async (_parent: any, args: IUser) => {
         try {
-            const { _id } = args;
+            const { id } = args;
 
-            let user = await User.findById(_id);
+            let user = await User.findById(id);
 
             if (!user) {
                 return new ErrorResponse(
-                    `User not found with id ${_id}`,
+                    `User not found with id ${id}`,
                     httpStatus["404_NAME"],
-                    "_id",
+                    "id",
                     httpStatus.NOT_FOUND
                 );
             }
 
-            user = await User.findByIdAndDelete(_id);
+            user = await User.findByIdAndDelete(id);
 
             return user;
         } catch (error) {

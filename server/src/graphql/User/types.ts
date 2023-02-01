@@ -1,6 +1,6 @@
 const types = `#graphql
    type User {
-        _id: ID
+        id: ID
         name: String
         email: String
         role: String
