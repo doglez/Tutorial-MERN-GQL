@@ -20,6 +20,10 @@ import { resolvers, typeDefs } from "./graphql";
     colors.enable();
     dbConnect();
 
+    interface MyContext {
+        token?: String;
+    }
+
     let httpServer: http.Server | https.Server;
     if (NODE_ENV === "production") {
         httpServer = https.createServer(CertificateOptions, app);
@@ -27,7 +31,7 @@ import { resolvers, typeDefs } from "./graphql";
         httpServer = http.createServer(app);
     }
 
-    const server = new ApolloServer({
+    const server = new ApolloServer<MyContext>({
         typeDefs,
         resolvers,
         plugins: [
@@ -45,7 +49,9 @@ import { resolvers, typeDefs } from "./graphql";
         "/graphql",
         cors<cors.CorsRequest>(),
         bodyParser.json(),
-        expressMiddleware(server)
+        expressMiddleware(server, {
+            context: async ({ req }) => ({ token: req.headers.authorization }),
+        })
     );
 
     await new Promise<void>((resolve) =>
