@@ -13,7 +13,7 @@ class ErrorResponse extends GraphQLError {
     constructor(
         message: string,
         codeMessage: string,
-        argumentName: string,
+        argumentName: string | String[] | null,
         statusCode: number
     ) {
         super(message, {

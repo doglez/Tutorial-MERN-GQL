@@ -17,7 +17,7 @@ const ErrorHandler = (err: any): object => {
         console.error(err);
     }
 
-    let message: any;
+    let message: string;
     switch (err.name) {
         case "CastError":
             // Mongoose bad ObjectID
@@ -41,8 +41,8 @@ const ErrorHandler = (err: any): object => {
 
         case "ValidationError":
             // Mongoose validation error
-            message = Object.values(err.errors).map(
-                (value: any) => value.message
+            message = String(
+                Object.values(err.errors).map((value: any) => value.message)
             );
             const argumentName = Object.values(err.errors).map(
                 (value: any) => value.path
@@ -50,7 +50,7 @@ const ErrorHandler = (err: any): object => {
             return new ErrorResponse(
                 message,
                 httpStatus["400_NAME"],
-                argumentName[0],
+                argumentName,
                 httpStatus.BAD_REQUEST
             );
 
@@ -58,7 +58,7 @@ const ErrorHandler = (err: any): object => {
             return new ErrorResponse(
                 httpStatus[500],
                 httpStatus["500_NAME"],
-                "N/A",
+                null,
                 httpStatus.INTERNAL_SERVER_ERROR
             );
     }
