@@ -7,7 +7,7 @@
         "dev": "SET NODE_ENV=development& ts-node-dev src/index",
         "build": "tsc & npm run copy-files",
         "start": "SET NODE_ENV=production& node build/index.js",
-        "test": "jest --coverage --watchAll",
+        "test": "SET NODE_ENV=test& jest --coverage --watchAll --detectOpenHandles",
         "copy-files": "cp -r ./src/certificate/certificate.* ./build/certificate",
         "imp": "npm run del& SET NODE_ENV=development& ts-node src/db/Seeder -i",
         "del": "SET NODE_ENV=development& ts-node src/db/Seeder -d"
